@@ -27,4 +27,11 @@ print('Affiche langage de programmation de la chaine : ' + extraire_phrase)
 # Challenge : Inversez la chaîne de caractères entière.
 inverse_chaine = chaine[::-1]
 
+# Important :
+# [::-1] = cette expression utilise le slicing pour inverser le mot 
+# Le premier : indique le début du slicing.
+# Le deuxième : indique la fin du slicing.
+# Le 1 indique le pas, c'est-à-dire le nombre d'éléments à sauter entre chaque élément sélectionné. 
+# Un pas de -1 signifie que nous parcourons la séquence de droite à gauche, ce qui inverse l'ordre.
+
 print('Inverse la chaine : ' + inverse_chaine)
