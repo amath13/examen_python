@@ -17,6 +17,12 @@ def compter_palindromes(liste_mots):
             count += 1
     return count
 
+# Important : 
+# ici j'ai crée 2 fonctions
+# fct est_palindrome : elle sert à déterminer si un mot est palindrome 
+# (un palindrome est un mot qui se lit dans les 2 sens)
+# fct compter_plaindromes : intialiser à 0, elle incrémente +1 à chaque fois qu'elle trouve un palindrome dans la liste 
+
 # Liste de mots
 liste_mots = ["radar", "bonjour", "kayak", "été", "elle", "reconnaître"]
 

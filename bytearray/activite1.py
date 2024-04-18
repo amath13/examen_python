@@ -10,10 +10,8 @@ byte_array = bytearray(liste_entiers)
 # Afficher le bytearray d'origine
 print("Bytearray d'origine :", byte_array)
 
-# Modifier un élément du bytearray
-index_modification = 2
-valeur_modification = 35
-byte_array[index_modification] = valeur_modification
+# Modification d'un élément du bytearray
+byte_array[2] = 35  # Modification du troisième élément
 
 # Afficher le bytearray après la modification
 print("Bytearray après modification :", byte_array)

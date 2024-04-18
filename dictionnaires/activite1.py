@@ -12,6 +12,10 @@ def eleves_sup_ou_egal_15(notes):
             eleves_sup_15[eleve] = note
     return eleves_sup_15
 
+# Important :  
+# la méthode .items() est utilisée sur un dictionnaire pour obtenir une vue d'ensemble 
+# des paires clé-valeur contenues dans ce dictionnaire.
+
 # Dictionnaire des étudiants et de leurs notes moyennes
 notes_etudiants = {
     "Alice": 17,
