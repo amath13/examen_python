@@ -18,11 +18,12 @@ def eleves_sup_ou_egal_15(notes):
 
 # Dictionnaire des étudiants et de leurs notes moyennes
 notes_etudiants = {
-    "Alice": 17,
-    "Bob": 12,
-    "Charlie": 15,
-    "David": 19,
-    "Eva": 14
+    "Amadou": 17,
+    "Ismail": 12,
+    "Amath": 15,
+    "KewKew": 19,
+    "Ibrahima": 14,
+    "Abu": 18
 }
 
 # Générer un nouveau dictionnaire avec les étudiants ayant une note moyenne supérieure ou égale à 15
